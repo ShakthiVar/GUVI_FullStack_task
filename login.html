@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="css/login.css" rel="stylesheet" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/login.js"></script>
+</head>
+<body>
+
+    <div class="container login-container">
+        <h2 align="center">Login Form</h2>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" class="form-control" placeholder="Enter your username">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password">
+
+        <button onclick="submitLogin()" class="btn btn-success">Login</button>
+
+        <div id="error-message" class="alert alert-danger" style="display: none;"></div>
+    </div>
+    
+</body>
+</html>
