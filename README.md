@@ -1,10 +1,10 @@
-**User Registration and Profile Management System**
+# User Registration and Profile Management System
 
-**Overview**
+### Overview
 
 Create a user authentication system with a signup, login, and profile page. Successful login should redirect to a profile page with additional user details such as age, date of birth, contact, etc. Users should be able to update their profiles.
 
-**Flow**
+### Flow
 
 Register: Users can sign up by providing necessary details.
 
@@ -12,7 +12,7 @@ Login: Users can log in with the details provided during registration.
 
 Profile: Successful login redirects to a profile page containing additional user details. Users can update their profiles.
 
-**Folder Structure**
+### Folder Structure
 
 CSS: Contains stylesheets.
 
@@ -22,7 +22,7 @@ PHP: Contains PHP scripts.
 
 Vendor: Manually download vendor dependencies (Bootstrap, jQuery) as they are not included in the repository.
 
-**Tech Stack**
+### Tech Stack
 
 1)HTML
 
@@ -38,7 +38,7 @@ Vendor: Manually download vendor dependencies (Bootstrap, jQuery) as they are no
 
 7)Redis: Utilized for session information storage.
 
-**How to Connect php application with Mongodb?**
+### How to Connect php application with Mongodb?
 
 1)Obtain the latest stable version of MongoDB from the PHP PECL website.
 
@@ -55,7 +55,7 @@ Vendor: Manually download vendor dependencies (Bootstrap, jQuery) as they are no
       composer install
       
       
-**How to store session Information in Redis?**
+### How to store session Information in Redis?
 
 1)Install the Redis Extension
 
@@ -68,12 +68,12 @@ Open your php.ini file and verify that the Redis extension is correctly configur
 3)Restart the Web Server.
 
 
-**Project Structure:**
+### Project Structure:
 
 ![Screenshot (325)](https://github.com/ShakthiVar/GUVI_FullStack_task/assets/92375087/5f10b0a8-0873-4364-a2dd-00f43959deb7)
 ![Screenshot (324)](https://github.com/ShakthiVar/GUVI_FullStack_task/assets/92375087/18c1b94a-2aeb-4377-b869-be551c412b74)
 
-**How to clone this Project?**
+### How to clone this Project?
 
 1)Clone the repository.
 
@@ -87,9 +87,10 @@ Open your php.ini file and verify that the Redis extension is correctly configur
 
 6)Open HTML files in a browser.
 
-Project Demo Video:
+### Project Demo Video:
 
 
 https://github.com/ShakthiVar/GUVI_FullStack_task/assets/92375087/52f5dc2d-36db-43a1-9fc3-0607dbca9ab9
 
 
+#### Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please open an issue or submit a pull request.
